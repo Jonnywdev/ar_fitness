@@ -163,8 +163,30 @@ header {
     
 
     /* section two - About */
+    .about-content-wrapped {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3rem;
+    }
 
-    /* section three - Unsure */
+    .circle {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: #d51857;
+        
+    }
+
+    .about-para {
+        column-count: 2;      
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    /* section three - Fitness Cards */
+
 
     /* section four - Contact */
 
@@ -193,7 +215,7 @@ header {
 
     /* section two - About */
 
-    /* section three - Unsure */
+    /* section three - Fitness Cards */
 
     /* section four - Contact */
     
@@ -206,7 +228,7 @@ header {
 
     /* section two - About */
 
-    /* section three - Unsure */
+    /* section three - Fitness Cards */
 
     /* section four - Contact */
 
@@ -229,8 +251,18 @@ header {
     }
 
     /* section two - About */
+    .about-content-wrapped {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
-    /* section three - Unsure */
+    .about-para {
+        width: 60%;
+        margin-top: 0;
+    }
+
+    /* section three - Fitness Cards */
 
     /* section four - Contact */
 
@@ -242,8 +274,11 @@ header {
     /* section one - Hero Image */
 
     /* section two - About */
+    .about-para {
+        width: 65%;
+    }
 
-    /* section three - Unsure */
+    /* section three - Fitness Cards */
 
     /* section four - Contact */
 
@@ -255,8 +290,15 @@ header {
     /* section one - Hero Image */
 
     /* section two - About */
+    .about-para {
+        width: 75%;
+    }
 
-    /* section three - Unsure */
+    .about-content-wrapped {
+        align-items: center;
+    }
+
+    /* section three - Fitness Cards */
 
     /* section four - Contact */
 
