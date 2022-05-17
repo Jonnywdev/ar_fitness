@@ -197,7 +197,7 @@
         right: 0px;
     }
 
-    .bottom-bar:clicked
+    
 
     /* section one - Hero Image */
     .hero-img {
@@ -314,7 +314,6 @@
         width: 250px;
         border-radius: 50%;
         background-color: #d51857;
-        
     }
 
     .about-para {
@@ -477,6 +476,12 @@
     .form-wrapper input[type=submit] {
         padding: 10px 0;
         font-size: 15px;
+        cursor: pointer;
+        transition: all .5s;
+    }
+
+    .form-wrapper input[type=submit]:hover {
+        color: #d51857;
     }
 
     .other-methods {
@@ -508,6 +513,11 @@
     .method-wrapped i {
         color: #fff;
         font-size: 20px;
+        transition: all .5s;
+    }
+
+    .method-wrapped i:hover {
+        color: #d51857;
     }
 
     .method-wrapped h1 {
