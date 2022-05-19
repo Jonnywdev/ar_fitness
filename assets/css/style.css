@@ -103,7 +103,7 @@
         display: flex;
         flex-direction: row;    
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
         padding: 1rem 2rem;
     }
 
@@ -741,7 +741,7 @@
     .menu-items {
         width: 70vw;
     }
-    
+
     .nav-container input[type="checkbox"]:checked ~ .menu-items {
         right: 16rem;
     }
