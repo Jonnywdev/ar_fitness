@@ -10,6 +10,7 @@
         font-family: 'Montserrat', sans-serif;
         background: #ffffff;
         color: #000000;
+        overflow-x: hidden;
     }
 
     /* generic styles */
@@ -117,7 +118,7 @@
 
     /* hamburger menu */
     .container {
-        width: 20%;
+        width: 5%;
         margin: auto;
       }
       
@@ -199,16 +200,64 @@
         transition: transform 0.5s ease-in-out;
         text-align: center;
       } */
-      
-      .navbar .menu-items li {
-        margin-bottom: 1.2rem;
-        font-size: 1.5rem;
-        font-weight: 500;
+
+      .menu-items {
+        margin-top: 4rem;
+        background-color: #000000;
+        width: 45vw;
+        height: 100vh;
+        z-index: 99999;
+        position: relative;
+        right: -20rem;
+        transition: all 1s;
       }
+
+      .login-wrapped {
+          padding: 20px 50px;
+      }
+
+      .sign-in {
+        color: #fff;
+        text-transform: uppercase;
+        padding-bottom: 2rem;
+        font-size: 2.5rem;
+        font-weight: 200;
+        display: inline-block;
+        position: relative;
+        letter-spacing: 2px;
+      }
+
+      .sign-in::after {
+        position: absolute;
+        top: 30%;
+        width: 999px;
+        content: "";
+        border-top: 1px solid #ddd;
+        margin-left: 20px;
+    }
+
+    .login-input {
+        width: 80%;
+        padding: 5px;
+    }
+
+    .login-submit {
+        width: 83%;
+        color: #000;
+        background: #fff;
+        padding: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 15px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
       
       .nav-container input[type="checkbox"]:checked ~ .menu-items {
-        transform: translateX(0);
-      }
+        right: 25rem;
+      } 
       
       .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
         transform: rotate(45deg);
@@ -222,9 +271,6 @@
         transform: rotate(-45deg);
       }
 
-      
-
-    
 
     /* section one - Hero Image */
     .hero-img {
@@ -581,6 +627,19 @@
 
     /* heading */
 
+    /* Hamburger menu */
+    .container {
+        width: 8%;
+    }
+
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        right: 20rem;
+    }
+
+    .menu-items {
+        width: 48vw;
+    }
+
     /* section one - Hero Image */
 
     /* section two - About */
@@ -607,6 +666,15 @@
 
     .menu i {
         font-size: 2.5rem;
+    }
+
+    /* Hamburger menu */
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        right: 20rem;
+    }
+
+    .menu-items {
+        width: 60vw;
     }
 
     /* section one - Hero Image */
@@ -667,6 +735,11 @@
     }
     /* heading */
 
+    /* Hamburger menu */
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        right: 16rem;
+    }
+
     /* section one - Hero Image */
     .text {
         width: 70%;
@@ -725,6 +798,37 @@
     .logo h1 {
         font-size: 2rem;
     }
+
+    /* Hamburger menu */
+    .container {
+        width: 12%;
+    }
+
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        right: 26rem;
+    }
+
+    .menu-items {
+        width: 105vw;
+    }    
+
+    .login-submit {
+        width: 103%;
+    }  
+
+    .login-input {
+        width: 100%;
+    }
+    
+    .login-wrapped {
+        padding: 50px;
+    }
+
+    .sign-in {
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+
     /* section one - Hero Image */
 
     .dot {
@@ -760,6 +864,33 @@
     .menu i {
         font-size: 1rem;
     }
+
+    /* Hamburger menu */
+
+    .container {
+        width: 20%;
+    }
+
+    .menu-items {
+        right: 14rem;
+    }
+
+    .login-wrapped {
+        padding: 50px 35px;
+    }
+
+    .sign-in::after {
+        top: 22%;
+    }
+
+    .login-input {
+        width: 95%;
+    }
+
+    .login-submit {
+        width: 100%;
+    }
+
 
     /* section one - Hero Img */
     .dots-wrapped {

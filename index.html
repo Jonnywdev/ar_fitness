@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" type="text/css">
     <title>Home Page</title>
 </head>
@@ -32,7 +33,19 @@
                   <span class="line line3"></span>
                 </div>  
 
-                <div class="menu-items"></div>
+                <div class="menu-items">
+                    <div class="login-wrapped">
+                        <h1 class="sign-in">Sign in</h1>
+                        <form action="post" id="login-form">
+                            <!-- <label for="Username">Full Name</label><br> -->
+                            <input type="text" class="login-input" placeholder="Username" required=""><br>
+                            <!-- <label for="email">Email Address</label><br> -->
+                            <input type="password" class="login-input" placeholder="Password" required=""><br>
+                            <input type="submit" value="Log In" class="login-submit">
+                        </form>
+                        <a href="error.html">ERROR</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
