@@ -210,6 +210,7 @@
         position: relative;
         right: -20rem;
         transition: all 1s;
+        overflow: hidden;
       }
 
       .login-wrapped {
@@ -736,6 +737,11 @@
     /* heading */
 
     /* Hamburger menu */
+
+    .menu-items {
+        width: 70vw;
+    }
+    
     .nav-container input[type="checkbox"]:checked ~ .menu-items {
         right: 16rem;
     }
@@ -800,12 +806,20 @@
     }
 
     /* Hamburger menu */
+
+    #login-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
     .container {
         width: 12%;
     }
 
     .nav-container input[type="checkbox"]:checked ~ .menu-items {
-        right: 26rem;
+        right: 15rem;
     }
 
     .menu-items {
@@ -813,11 +827,11 @@
     }    
 
     .login-submit {
-        width: 103%;
+        width: 70%;
     }  
 
     .login-input {
-        width: 100%;
+        width: 65%;
     }
     
     .login-wrapped {
@@ -872,8 +886,13 @@
     }
 
     .menu-items {
-        right: 14rem;
+        right: -14rem;
     }
+
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        right: 10rem;
+    }
+
 
     .login-wrapped {
         padding: 50px 35px;
@@ -884,11 +903,11 @@
     }
 
     .login-input {
-        width: 95%;
+        width: 50%;
     }
 
     .login-submit {
-        width: 100%;
+        width: 54%;
     }
 
 
